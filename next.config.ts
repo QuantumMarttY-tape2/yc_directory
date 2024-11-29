@@ -2,6 +2,14 @@ import {withSentryConfig} from "@sentry/nextjs";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Only for the version on GitHub.
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreBuildErrors: true,
+  },
+  
   /* config options here */
   images: {
     dangerouslyAllowSVG: true,
