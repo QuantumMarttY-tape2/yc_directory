@@ -27,11 +27,6 @@ const StartupForm = () => {
 
     const router = useRouter();
 
-    toast({
-        title: 'Success',
-        description: 'Your startup pitch has been created successfully.',
-    });
-
     // Forms do not submit instantly, so:
     const handleFormSubmit = async (prevState: any, formData: FormData) => {
         try {
