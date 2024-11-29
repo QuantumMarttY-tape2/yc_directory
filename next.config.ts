@@ -21,15 +21,15 @@ const nextConfig: NextConfig = {
     ],
   },
   
-  // This part crashes this app on my computer:
+  // This part crashes this app:
   // CanaryOnlyError: The experimental feature "experimental.ppr" can only be enabled when using the latest canary version of Next.js.
-  experimental: {
-    ppr: 'incremental',
-    after: true
-  },
   // experimental: {
-  //   after: true,
+  //   ppr: 'incremental',
+  //   after: true
   // },
+  experimental: {
+    after: true,
+  },
 
   devIndicators: {
     appIsrStatus: true,
