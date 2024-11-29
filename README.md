@@ -1,3 +1,7 @@
+# Video Reference
+
+https://www.youtube.com/watch?v=Zq5fmkH0T78 by adrianhajdin.
+
 # Sidenotes
 
 ## 1. Location: sentry.client.config.js
